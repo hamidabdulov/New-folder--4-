@@ -13,30 +13,29 @@ body{
     flex-wrap: wrap;
     justify-content: space-between; 
 }
-.desc-text{
+.description-text{
    width: 50%;
 }
-.desc-text h1{
+.description-text h1{
     font-weight: 700;
     font-size: 55px;
     color: black;
 }
-.desc-text p{
+.description-text p{
     font-weight:400;  
     font-size: 24px;
     color: black;
 }
-.container .image{
+.container .photo{
     width: 35%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.image img{
+.photo img{
     width: 100%;
 }
 .contain{
-    /* width: 100%; */
     padding: 91px 124px;
     display: flex;
     align-items: center;
@@ -80,17 +79,17 @@ display: block;
         align-items: center;
         border: 2px solid balck;
     }
-    .desc-text{
+    .description-text{
         width: 90%;
         margin:0 auto;
     }
-    .desc-text h1{
+    .description-text h1{
         font-size: 26px;
     }
-    .desc-text p{
+    .description-text p{
         font-size: 12px;
     }
-    .container .image{
+    .container .photo{
         width: 40%;
         margin:0 auto;
     }
@@ -117,10 +116,10 @@ display: block;
         padding: 56px 54px;
     }
    
-    .desc-text h1{
+    .description-text h1{
         font-size: 32px;
     }
-    .desc-text p{
+    .description-text p{
         font-size: 14px;
     }
 
